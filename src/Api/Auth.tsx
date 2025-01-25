@@ -16,6 +16,7 @@ const ExternalApi = () => {
         {
           headers: {
             Authorization: `Bearer ${token}`,
+            "content-type": "application/json"
           },
         },
       );
